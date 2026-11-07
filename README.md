@@ -10,6 +10,17 @@ Ferramentas do vídeo "5 plugins pro seu claude code ficar INFINITO" + a skill f
 | 4 | [find-skills](https://github.com/vercel-labs/skills) | Skill que procura outras skills (`npx skills find`) | Útil, mas só depois de ter o scanner |
 | 5 | [Claude Code Router](https://github.com/musistudio/claude-code-router) / [OmniRoute](https://github.com/diegosouzapw/OmniRoute) | Usa outros modelos (DeepSeek, Gemini, OpenRouter, locais) dentro do Claude Code | **Opcional.** Os dois fazem a mesma coisa, então escolha um só. Seu código passa a ir para provedores de terceiros |
 
+## Instalar no Windows
+
+Abra o PowerShell e rode:
+
+```powershell
+winget install --id Git.Git -e
+git clone -b claude/gallant-dirac-a4m1b1 https://github.com/thyagogrecu/claude.git
+cd claude
+powershell -ExecutionPolicy Bypass -File scripts\install.ps1
+```
+
 ## Instalar (macOS / Linux / WSL)
 
 Requisitos: `git`, `curl`, Node.js 22 ou mais novo, [`uv`](https://docs.astral.sh/uv/getting-started/installation/) e o Claude Code.
